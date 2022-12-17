@@ -7,26 +7,53 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+          <nav className='d-flex justify-content-around'>
+            <h5>Habilidades</h5>
+            <h5>Proyectos</h5>
+            <h5>Experiencia</h5>
+            <h5>Contacto</h5>
+          </nav>
+          <header className=' d-flex justify-content-evenly'>
+            <div>
+              <h1>Hola, soy karen</h1>
+              <h4>Desarroladora web frontend</h4>
+              <button>Contactar</button>
+            </div>
+            <img className='photo' src="../photo.png" alt="carita" />
+          </header>
+          <section>
+            <h3 className='text-start '>Habilities</h3>
+            <div className='d-flex justify-content-evenly'>
+              <img src="../html.png" alt="nn" />
+              <img src="../css.png" alt="nn" />
+              <img src="../js.png" alt="nn" />
+              <img src="../react.png" alt="nn" />
+            </div>
+          </section>
+          <section>
+            <h3>Proyects</h3>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </section>
+          <section>
+            <h3>Experiencia</h3>
+            <div className='d-flex justify-content-evenly'>
+              <h4>text</h4>
+              <h4>text</h4>
+              <h4>text</h4>
+            </div>
+          </section>
+          <section>
+            <h3>Contacto</h3>
+            <div className='d-flex justify-content-around'>
+              <img src="../linkedin" alt="x" />
+              <img src="../whatsapp" alt="x" />
+              <img src="../gihub" alt="x" />
+            </div>
+          </section>
+          
     </div>
   )
 }

@@ -1,8 +1,8 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-color: #0D1031;
+  color: white;
 }
 
 .logo {
@@ -38,4 +38,21 @@
 
 .read-the-docs {
   color: #888;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-width: 100%;
+  background-color: #090C24;
+  padding: 1.5rem;
+}
+
+header{
+  align-items: center;
+  height: 500px;
+}
+.photo{
+  width: 22%;
 }
