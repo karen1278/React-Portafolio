@@ -3,6 +3,7 @@
   text-align: center;
   background-color: #0D1031;
   color: white;
+  height: 100%;
 }
 
 .logo {
@@ -39,6 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+section{
+  padding: 3rem;
+  background-color: #0D1031;
+}
 
 nav{
   display: flex;
@@ -55,4 +60,31 @@ header{
 }
 .photo{
   width: 22%;
+}
+.containerhabilidades{
+  display: flex;
+  flex-wrap: wrap;
+}
+.habilidades{
+  height: 5rem;
+}
+.proyecto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+}
+.cartas{
+  padding: 2%;
+  margin: 2%;
+}
+.contact{
+padding: 3rem;
+}
+.contactlogo{
+  height: 5rem;
+}
+.flecha{
+  right: 5px;
+ 
 }
